@@ -20,7 +20,6 @@ export class FetchService {
   fetching = true;
   private readonly itemsService = inject(ItemsService);
   private lastUpdated: Date | undefined;
-  private currentId = 1;
 
   private get needsUpdate() {
     const lastUpdate = this.getLastUpdate();
@@ -51,10 +50,6 @@ export class FetchService {
 
   public setLastUpdate() {
     localStorage.setItem('lastUpdate', JSON.stringify(new Date()));
-  }
-
-  private getId() {
-    return this.currentId++;
   }
 
   private getLastUpdate(): Date {
@@ -118,26 +113,22 @@ export class FetchService {
       const wikiLinksSkills = Array.from(archetypeHtml.querySelectorAll('div.row a.wiki_link'));
       const skills: Array<Skill> = [
         {
-          id: this.getId(),
           category: 'Skill',
           name: this.getText(wikiLinksSkills[wikiLinksSkills.length - 5]),
           image: this.formatThumbnail(wikiLinksSkills[wikiLinksSkills.length - 5].querySelector('img')),
         },
         {
-          id: this.getId(),
           category: 'Skill',
           name: this.getText(wikiLinksSkills[wikiLinksSkills.length - 4]),
           image: this.formatThumbnail(wikiLinksSkills[wikiLinksSkills.length - 4].querySelector('img')),
         },
         {
-          id: this.getId(),
           category: 'Skill',
           name: this.getText(wikiLinksSkills[wikiLinksSkills.length - 3]),
           image: this.formatThumbnail(wikiLinksSkills[wikiLinksSkills.length - 3].querySelector('img')),
         }
       ];
       archetypes.push({
-        id: this.getId(),
         category: 'Archetype',
         name: this.getText(x),
         image: this.formatImageSrc(x.querySelector('img')),
@@ -174,7 +165,6 @@ export class FetchService {
     }
     const data = await this.getData("https://remnant2.wiki.fextralife.com/Relics");
     const items = data.map(x => ({
-      id: this.getId(),
       category: "Relic",
       name: this.getText(x.querySelector('.wiki_link')),
       image: this.formatImageSrc(x.querySelector('img')),
@@ -186,7 +176,6 @@ export class FetchService {
 
   private getRangedWeapon(x: Element): RangedWeapon {
     return {
-      id: this.getId(),
       category: "RangedWeapon",
       name: this.getText(x.querySelector('.wiki_link')),
       image: this.formatImageSrc(x.querySelector('img')),
@@ -205,7 +194,6 @@ export class FetchService {
 
   private getArmor(x: Element): Armor {
     return {
-      id: this.getId(),
       category: "Armor",
       name: this.getText(x.querySelector('.wiki_link')),
       image: this.formatImageSrc(x.querySelector('img')),
@@ -293,7 +281,6 @@ export class FetchService {
     }
     const data = await this.getData("https://remnant2.wiki.fextralife.com/Melee+Weapons");
     const items = data.map(x => ({
-      id: this.getId(),
       category: "MeleeWeapon",
       name: this.getText(x.querySelector('.wiki_link')),
       image: this.formatImageSrc(x.querySelector('img')),
@@ -317,7 +304,6 @@ export class FetchService {
     }
     const data = await this.getData("https://remnant2.wiki.fextralife.com/Rings");
     const items = data.map(x => ({
-      id: this.getId(),
       category: "Ring",
       name: this.getText(x.querySelector('.wiki_link')),
       image: this.formatImageSrc(x.querySelector('img')),
@@ -336,7 +322,6 @@ export class FetchService {
     }
     const data = await this.getData("https://remnant2.wiki.fextralife.com/Amulets");
     const items = data.map(x => ({
-      id: this.getId(),
       category: "Amulet",
       name: this.getText(x.querySelector('.wiki_link')),
       image: this.formatImageSrc(x.querySelector('img')),
@@ -355,7 +340,6 @@ export class FetchService {
     }
     const data = await this.getData("https://remnant2.wiki.fextralife.com/Weapon+Mods");
     const items = data.map(x => ({
-      id: this.getId(),
       category: "Mod",
       name: this.getText(x.querySelector('.wiki_link')),
       image: this.formatImageSrc(x.querySelector('img')),
@@ -375,7 +359,6 @@ export class FetchService {
     }
     const data = await this.getData("https://remnant2.wiki.fextralife.com/Mutators");
     const items = data.map(x => ({
-      id: this.getId(),
       category: "Mutator",
       distance: this.getText(x.querySelectorAll('td')[1]),
       name: this.getText(x.querySelector('.wiki_link')),
@@ -409,7 +392,6 @@ export class FetchService {
     }
     const data = await this.getData("https://remnant2.wiki.fextralife.com/Traits");
     const items = data.map(x => ({
-      id: this.getId(),
       category: "Trait",
       name: this.getText(x.querySelector('.wiki_link')),
       image: this.formatImageSrc(x.querySelector('img')),
