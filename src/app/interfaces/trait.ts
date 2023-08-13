@@ -4,4 +4,5 @@ import {Effect} from "./effect";
 export interface Trait extends Item, Effect {
   type: "Archetype Trait" | "Core Trait" | "Trait";
   maxLevelBonus: string;
+  level: number;
 }

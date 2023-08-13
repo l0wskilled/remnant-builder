@@ -1,0 +1,15 @@
+.level-container {
+  display: flex;
+  gap: 6px;
+}
+i {
+  aspect-ratio: 1/1;
+  display: block;
+  width: 14px;
+  background: gray;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.container {
+  margin-bottom: 8px;
+}

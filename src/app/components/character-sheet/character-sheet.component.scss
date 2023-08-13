@@ -1,15 +1,18 @@
 :host {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100%;
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 16px;
+  justify-items: center;
+  align-items: center;
 }
 .sheet {
   background-image: url('/assets/img/remnant-sheet.webp');
   background-size: cover;
   aspect-ratio: 1051/863;
   position: relative;
+  margin-bottom: 7%;
   @media (orientation: landscape) {
     max-height: 80%;
     max-width: 100%;

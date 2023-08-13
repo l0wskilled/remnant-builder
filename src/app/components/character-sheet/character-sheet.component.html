@@ -1,4 +1,4 @@
-<div class="sheet" *ngIf="!fetchService.fetching">
+<div class="sheet" *ngIf="!fetchService.fetching" [style.grid-column]="2">
   <div class="archetypes">
     <app-item [items]="stateService.archetype1?.skills ?? []"
               stateProperty="archetype1Skill"
@@ -108,3 +108,4 @@
     </div>
   </div>
 </div>
+<app-trait-list [traits]="itemsService.traits" [style.grid-column]="3"></app-trait-list>

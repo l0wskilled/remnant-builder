@@ -1,0 +1,82 @@
+:host {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  flex-direction: column;
+  align-items: end;
+  margin: 5vw;
+  padding: 16px;
+  border-radius: 6px;
+}
+input {
+  align-self: center;
+  padding: 4px;
+}
+.trait-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  overflow-y: auto;
+  width: 100%;
+}
+.trait {
+  width: 3vw;
+  min-width: 60px;
+  min-height: 80px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+/// Stroke font-character
+/// @param  {Integer} $stroke - Stroke width
+/// @param  {Color}   $color  - Stroke color
+/// @return {List}            - text-shadow list
+@function stroke($stroke, $color) {
+  $shadow: ();
+  $from: $stroke*-1;
+  @for $i from $from through $stroke {
+    @for $j from $from through $stroke {
+      $shadow: append($shadow, $i*1px $j*1px 0 $color, comma);
+    }
+  }
+  @return $shadow;
+}
+/// Stroke font-character
+/// @param  {Integer} $stroke - Stroke width
+/// @param  {Color}   $color  - Stroke color
+/// @return {Style}           - text-shadow
+@mixin stroke($stroke, $color) {
+  text-shadow: stroke($stroke, $color);
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 2rem;
+  cursor: pointer;
+  text-align: center;
+  color: #880000;
+  font-weight: bold;
+  @include stroke(2, #000);
+}
+button.small {
+  font-size: 1rem;
+  padding: 2px;
+  margin: 2px;
+  &:disabled {
+    opacity: .5;
+    cursor: default;
+  }
+}

@@ -398,6 +398,7 @@ export class FetchService {
       type: this.getText(x.querySelectorAll('td')[1]),
       effect: this.getHtml(x.querySelectorAll('td')[2]),
       maxLevelBonus: this.getHtml(x.querySelectorAll('td')[3]),
+      level: 0,
     } as Trait));
     this.cache(items, 'traits');
     this.itemsService.traits = items;

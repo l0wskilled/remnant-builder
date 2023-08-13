@@ -1,6 +1,7 @@
 import {Component, Input, Output} from '@angular/core';
 import {Item} from "../../interfaces/item";
 import {BehaviorSubject} from "rxjs";
+import {ItemEffect} from "../../interfaces/item-effect";
 
 @Component({
   selector: 'app-item-selector',
@@ -27,8 +28,7 @@ export class ItemSelectorComponent {
     return this.items.filter(item => {
       let found = item.name.toLowerCase().includes(this.searchTerm.toLowerCase());
       if ('effect' in item) {
-        // @ts-ignore
-        found = found || item.effect.toLowerCase().includes(this.searchTerm.toLowerCase());
+        found = found || (item as ItemEffect).effect.toLowerCase().includes(this.searchTerm.toLowerCase());
       }
       return found;
     });

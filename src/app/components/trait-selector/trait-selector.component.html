@@ -1,0 +1,12 @@
+<button (click)="close()">Close</button>
+<input placeholder="Filter" [(ngModel)]="searchTerm">
+<div class="trait-container">
+  <div *ngFor="let trait of filteredTraits()"
+       class="trait"
+       appTooltip [item]="trait" direction="bottom">
+    <button class="small" (click)="increaseTrait(trait)" [disabled]="(trait?.level ?? 0) >= maxLevel">▲</button>
+    <img [src]="trait?.image" [alt]="trait?.name">
+    <button class="small" (click)="decreaseTrait(trait)" [disabled]="(trait?.level ?? 0) <= 0">▼</button>
+    <span>{{trait?.level}}</span>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+<div class="container">
+  <span>{{trait?.name}}</span>
+  <div class="level-container" *ngIf="trait?.level">
+    <i *ngFor="let i of createRange(trait?.level ?? 0)">
+    </i>
+  </div>
+</div>

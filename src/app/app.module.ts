@@ -8,6 +8,9 @@ import {TooltipComponent} from './components/tooltip/tooltip.component';
 import {TooltipDirective} from './directives/tooltip.directive';
 import {FormsModule} from "@angular/forms";
 import {SpinnerComponent} from './components/spinner/spinner.component';
+import { TraitListComponent } from './components/trait-list/trait-list.component';
+import { TraitComponent } from './components/trait/trait.component';
+import { TraitSelectorComponent } from './components/trait-selector/trait-selector.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import {SpinnerComponent} from './components/spinner/spinner.component';
     ItemSelectorComponent,
     TooltipComponent,
     TooltipDirective,
-    SpinnerComponent
+    SpinnerComponent,
+    TraitListComponent,
+    TraitComponent,
+    TraitSelectorComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,7 @@
+<button (click)="toggleSelection()">Change Traits</button>
+<app-trait-selector [style.display]="selectionOpen ? 'flex' : 'none'"
+                   [traits]="traits"
+                   (selected)="itemSelected($event)"
+                   (closed)="selectionClosed($event)"></app-trait-selector>
+<app-trait *ngFor="let trait of stateService.traits" [trait]="trait"></app-trait>
+

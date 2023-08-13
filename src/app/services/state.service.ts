@@ -14,6 +14,7 @@ import {State} from "../interfaces/state";
 import {ItemsService} from "./items.service";
 // @ts-ignore
 import * as lz from "../../../node_modules/lz-string/libs/lz-string.js";
+import {Trait} from "../interfaces/trait";
 
 @Injectable({
   providedIn: 'root'
@@ -277,6 +278,17 @@ export class StateService implements State {
     this.hashChanged();
   }
 
+  private _traits: Trait[] = [];
+
+  get traits(): Trait[] {
+    return this._traits;
+  }
+
+  set traits(value: Trait[]) {
+    this._traits = value;
+    this.hashChanged();
+  }
+
   hashChanged(): void {
     this.hash.next(this.getHash());
   }
@@ -307,6 +319,7 @@ export class StateService implements State {
         this._archetype1Skill?.name,
         this._archetype2?.name,
         this._archetype2Skill?.name,
+        this._traits?.map(x => `${x.name}:${x.level}`).join("|")
       ]
     );
     return lz.compressToEncodedURIComponent(json);
@@ -339,5 +352,17 @@ export class StateService implements State {
     this.archetype1Skill = this._archetype1?.skills.find(x => x.name === parsed[20]);
     this.archetype2 = this.itemsService.archetypes.find(x => x.name === parsed[21]);
     this.archetype2Skill = this._archetype2?.skills.find(x => x.name === parsed[22]);
+    this.traits = parsed[23].split("|").map((x: string) => {
+      const data = x.split(":");
+      const trait = this.itemsService.traits.find(y => y.name === data[0]);
+      if (trait) {
+        trait.level = parseInt(data[1]);
+      }
+      return trait;
+    });
+  }
+
+  getTraitLevelSum(): number {
+    return this.traits.reduce((sum, current) => sum + (current?.level ?? 0), 0);
   }
 }
