@@ -12,6 +12,7 @@ import {Archetype} from "../../interfaces/archetype";
 import {Skill} from "../../interfaces/skill";
 import {Relic} from "../../interfaces/relic";
 import {Amulet} from "../../interfaces/amulet";
+import {RelicFragment} from "../../interfaces/relic-fragment";
 
 @Component({
   selector: 'app-tooltip',
@@ -58,6 +59,10 @@ export class TooltipComponent {
 
   isRelic(item: Item): item is Relic {
     return item.category === 'Relic';
+  }
+
+  isRelicFragment(item: Item): item is RelicFragment {
+    return item.category === 'RelicFragment';
   }
 
   isAmulet(item: Item): item is Amulet {

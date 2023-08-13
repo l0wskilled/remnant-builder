@@ -3,7 +3,8 @@
   <h2>{{item?.name}}</h2>
   <h3>{{item?.category}}</h3>
   <img [src]="item?.image" [alt]="item?.name">
-  <div class="effect" *ngIf="item && (isRing(item) || isRelic(item) || isAmulet(item)) && !isMutator(item) && !isMod(item)"
+  <div class="effect"
+       *ngIf="item && (isRing(item) || isRelic(item) || isAmulet(item) || isRelicFragment(item)) && !isMutator(item) && !isMod(item)"
        [innerHtml]="asRing(item).effect"></div>
   <div class="effect" *ngIf="item && isMod(item)">
     <div class="container">
@@ -11,6 +12,14 @@
       <div>
         <div class="key">Power Required</div>
         <div class="value">{{asMod(item).powerRequired}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="effect" *ngIf="item && isArchetype(item)">
+    <div class="container">
+      <div>
+        <div class="key">Prime Perk</div>
+        <div class="value">{{asArchetype(item).primePerk}}</div>
       </div>
     </div>
   </div>
