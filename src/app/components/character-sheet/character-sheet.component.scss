@@ -3,11 +3,12 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 .sheet {
   background-image: url('/assets/img/remnant-sheet.webp');
   background-size: cover;
-  aspect-ratio: 1051/732;
+  aspect-ratio: 1051/863;
   position: relative;
   @media (orientation: landscape) {
     max-height: 80%;
@@ -19,4 +20,10 @@
     max-width: 80%;
     width: 100%;
   }
+}
+.addonContainer {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+  width: 19.6%;
 }

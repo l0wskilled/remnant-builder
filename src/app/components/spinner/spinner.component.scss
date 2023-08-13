@@ -1,0 +1,54 @@
+:host {
+  position: fixed;
+  top: 0;
+  right:0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999999;
+  display: flex;
+  @media (orientation: landscape) {
+    gap: 1%;
+  }
+  @media (orientation: portrait) {
+    gap: 2%;
+  }
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0, 0.75);
+  backdrop-filter: blur(10px);
+}
+img {
+  height: 50%;
+  aspect-ratio: 132/1001;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+  &:first-child {
+    animation: float 2s ease-in-out infinite;
+  }
+  &:last-child {
+    animation: float 2s ease-in-out infinite;
+    animation-delay: 80ms;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(-15%);
+  }
+  50% {
+    transform: translateY(15%);
+  }
+  100% {
+    transform: translateY(-15%);
+  }
+}
+@keyframes floatright {
+  0% {
+    transform: translateY(15%);
+  }
+  50% {
+    transform: translateY(-15%);
+  }
+  100% {
+    transform: translateY(15%);
+  }
+}

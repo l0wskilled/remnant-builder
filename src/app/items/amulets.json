@@ -1,0 +1,436 @@
+[
+  {
+    "id": 1,
+    "category": "Amulet",
+    "name": "Abrasive Whetstone",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/abrasive_whetstone_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "When attacking a <span style=\"color: #96424f;\" data-darkreader-inline-color=\"\">BLEEDING</span> enemy, Crit Chance is increased by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span> and Crit Damage is increased by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30%</span>."
+  },
+  {
+    "id": 2,
+    "category": "Amulet",
+    "name": "Ankh of Power",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/ankh_of_power_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Grants a <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span> increase to all damage. Consuming a Relic doubles the bonus for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15s</span>."
+  },
+  {
+    "id": 3,
+    "category": "Amulet",
+    "name": "Broken Pocket Watch",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/broken_pocket_watch_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Stamina Regeneration by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25</span> and reduces Stamina cost by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>."
+  },
+  {
+    "id": 4,
+    "category": "Amulet",
+    "name": "Butcher's Fetish",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/butchers_fetish_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Critical Chance by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span> and Critical Damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15s</span> after striking enemy with a Charged Melee Attack."
+  },
+  {
+    "id": 5,
+    "category": "Amulet",
+    "name": "Chains Of Amplification",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/chains_of_amplification_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases all damage dealt to targets suffering from a Status Effect by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span>."
+  },
+  {
+    "id": 6,
+    "category": "Amulet",
+    "name": "Cleansing Stone",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cleansing_stone_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Reduces Duration of Elemental Status Effects against wearer by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>. Relic use cleanses Elemental Status effects and grants <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span> of wearers Max Health to all allies within 7m when cleansed."
+  },
+  {
+    "id": 7,
+    "category": "Amulet",
+    "name": "Core Booster",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/core_booster_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases weakspot damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10s</span> after killing an enemy."
+  },
+  {
+    "id": 8,
+    "category": "Amulet",
+    "name": "Daredevil's Charm",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/daredevils_charm_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">7.5%</span> to all damage dealt, <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">3%</span> Movement Speed, and <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5%</span> all damage taker' for each piece of unequipped armor."
+  },
+  {
+    "id": 9,
+    "category": "Amulet",
+    "name": "Death's Embrace",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/death_embrace_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span> to all damage when Health is below <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">100%</span>. Gain <span style=\"color: #f1f1cf;\" data-darkreader-inline-color=\"\">HASTE</span> when below <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span> Health."
+  },
+  {
+    "id": 10,
+    "category": "Amulet",
+    "name": "Decayed Margin",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/decayed_margin_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Melee hits gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">1.5%</span> base damage dealt as Lifesteal. For each <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span> missing Health, gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">1.5%</span> additional Melee Lifesteal. When Health is full, gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span> Melee Damage."
+  },
+  {
+    "id": 11,
+    "category": "Amulet",
+    "name": "Detonation Trigger",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/detonation_trigger_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Explosion damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span>. Explosions apply <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">405</span> <span style=\"color: #9f674e;\" data-darkreader-inline-color=\"\">BURNING</span> damage over 5s."
+  },
+  {
+    "id": 12,
+    "category": "Amulet",
+    "name": "Difference Engine",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/difference_engine_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "While a Shield is active, gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span> damage and <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">1.5%</span> of base dealt as Lifesteal."
+  },
+  {
+    "id": 13,
+    "category": "Amulet",
+    "name": "Downward Spiral",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/downward_spiral_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increase Fire Rate by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10%</span> and Melee Attack Speed by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span>. For every missing <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10%</span> of Max Health, gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">3%</span> Ranged Damage (Max <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span>) and <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">4%</span> Melee Damage (Max <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span>)."
+  },
+  {
+    "id": 14,
+    "category": "Amulet",
+    "name": "Effigy Pendant",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/effigy_pendant_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "While Grey Health is present, gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span> to all damage dealt, <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10%</span> damage reduction and <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">1</span> additional hit before Grey Health is removed."
+  },
+  {
+    "id": 15,
+    "category": "Amulet",
+    "name": "Effluvium Enhancer",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/effluvium_enhancer_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases <span style=\"color: #589961;\" data-darkreader-inline-color=\"\">ACID</span> damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span> and <span style=\"color: #589961;\" data-darkreader-inline-color=\"\">CORROSIVE</span> damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>."
+  },
+  {
+    "id": 16,
+    "category": "Amulet",
+    "name": "Emergency Switch",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/emergency_switch_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "When below <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span> health, chance to consume Relic on use is reduced by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">35%</span>. Final Relic Charge is not consumed on use, but effect cannot be triggered again for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">60s</span>."
+  },
+  {
+    "id": 17,
+    "category": "Amulet",
+    "name": "Energized Neck Coil",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/energized_neck_coil_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Status Effect damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span>. Applying a damagin Status Effect creates a <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5m</span> Explosion for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span> of the Status Effect's full damage."
+  },
+  {
+    "id": 18,
+    "category": "Amulet",
+    "name": "Energy Diverter",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/energy_diverter__amulets_remnant2_wiki_guide_75px.png",
+    "effect": "While a <span style=\"color: #f1f1cf;\" data-darkreader-inline-color=\"\">SHIELD</span> is active, gain 10 Critical Chance and 15% to all damage dealt."
+  },
+  {
+    "id": 19,
+    "category": "Amulet",
+    "name": "Escalation Protocol",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/escalation_protocol_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases all damage dealt by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">2.5%</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10s</span> after killing an enemy. Stacks <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10x</span>. Dealing damage refreshes the timer."
+  },
+  {
+    "id": 20,
+    "category": "Amulet",
+    "name": "Full Moon Circlet",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/full_moon_circlet_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Ranged damage gives Lifesteal as <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">3%</span> of base damage dealt. At full health, damage is increases by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span>."
+  },
+  {
+    "id": 21,
+    "category": "Amulet",
+    "name": "Golden Ribbon",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/gold_ribbon_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Mod damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span>. Activating a MOD grants <span style=\"color: #f1f1cf;\" data-darkreader-inline-color=\"\">HASTE</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15s</span>."
+  },
+  {
+    "id": 22,
+    "category": "Amulet",
+    "name": "Gunfire Security Lanyard",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/gunfire_security_lanyard_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Automatically reloads Magazine over time. Does not work for single shot weapons."
+  },
+  {
+    "id": 23,
+    "category": "Amulet",
+    "name": "Gunslinger's Charm",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/gunslingers_charm_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Fire Rate by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span> and Reload Speed by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span>."
+  },
+  {
+    "id": 24,
+    "category": "Amulet",
+    "name": "Hallowed Egg",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/hallowed_egg_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Spending at least <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30%</span> of Firearms magazine to deal damage increases Melee damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10%</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">7s</span>. Stacks <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5x</span>."
+  },
+  {
+    "id": 25,
+    "category": "Amulet",
+    "name": "Hyperconductor",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/hyper_conductor_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Gain double Skill Charges. Increases Skill Cooldowns by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span> and reduces Max Power Generation by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span>.<br>For Heavy Weapons, doubles Heavy Weapon Ammo instead."
+  },
+  {
+    "id": 26,
+    "category": "Amulet",
+    "name": "Indignant Fetish",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/indignant_fetish_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Taking damage from enemies increases all damage dealt by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span> and reduces all incoming damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10%</span>. Lasts <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20s</span>."
+  },
+  {
+    "id": 27,
+    "category": "Amulet",
+    "name": "Inert Overcharger",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/inert_overcharger_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Standing still increases Fire Rate by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span>, Reload Speed by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span>, and reduces Recoil by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>. Lasts <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">1.5s</span> after moving."
+  },
+  {
+    "id": 28,
+    "category": "Amulet",
+    "name": "Insulation Driver",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/insulation_driver_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "While <span style=\"color: #f1f1cf;\" data-darkreader-inline-color=\"\">BULWARK</span> is active, gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span> to all damage dealt and <span style=\"color: #f1f1cf;\" data-darkreader-inline-color=\"\">HASTE</span>."
+  },
+  {
+    "id": 29,
+    "category": "Amulet",
+    "name": "Jester's Bell",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/jesters_bell_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Mod and Skill Cast Speed by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">35%</span>. Casting a Skill or Mod increases all damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15s</span>."
+  },
+  {
+    "id": 30,
+    "category": "Amulet",
+    "name": "Kinetic Shield Exchanger",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/kinetic_shield_exchanger_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "While a <span style=\"color: #f1f1cf;\" data-darkreader-inline-color=\"\">SHIELD</span> is active, gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span> Mod damage and generate <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span> additional Mod power."
+  },
+  {
+    "id": 31,
+    "category": "Amulet",
+    "name": "Kuri Kuri Charm",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/kuri_kuri_charm_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "For every <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10%</span> of Health missing (Max <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>), gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10%</span> increased Relic Use Speed and <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">7%</span> chance to not consume a Relic Charge."
+  },
+  {
+    "id": 32,
+    "category": "Amulet",
+    "name": "Laemir Censer",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/laemir_censer_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Mod Duration by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>. Increases Mod Cost by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span>."
+  },
+  {
+    "id": 33,
+    "category": "Amulet",
+    "name": "Leto's Amulet",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/letos_amulet_amulets_remnant2_wiki_guide_250px.png",
+    "effect": "Reduces Encumbrance by 40% and Stamina Cost by 15%."
+  },
+  {
+    "id": 34,
+    "category": "Amulet",
+    "name": "Matriarch's Insignia",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/matriarch_insignia_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Melee Damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">35%</span> and causes all successful Melee Attacks to restore <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10</span> Stamina."
+  },
+  {
+    "id": 35,
+    "category": "Amulet",
+    "name": "Navigator's Pendant",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/navigator_pendant_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Grants <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20</span> Health, <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20</span> Stamina, and <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">-10</span> Armor Encumbrance."
+  },
+  {
+    "id": 36,
+    "category": "Amulet",
+    "name": "Neckbone Necklace",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/neckbone_necklace_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Reduces the Damage of Status Effects applied to wearer by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>. Gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span> increased Damage when suffering from a Status Effect or Blight."
+  },
+  {
+    "id": 37,
+    "category": "Amulet",
+    "name": "Necklace of Flowing Life",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/necklace_of_flowing_life_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Grey Health conversion by an additional <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">100%</span>. When Grey Health Conversion triggers, gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5x</span> the amount as Mod Power."
+  },
+  {
+    "id": 38,
+    "category": "Amulet",
+    "name": "Necklace of Supremacy",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/necklace_of_supremacy_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "After <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">7s</span> of not being damaged, increases all damage dealt by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span>. Increases to <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span> if Health is full."
+  },
+  {
+    "id": 39,
+    "category": "Amulet",
+    "name": "Nightmare Spiral",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/nightmare_spiral_amulets_remnant2_wiki_guide_250px.png",
+    "effect": " Gain 10% of base Ranged damage dealt as Lifesteal. Reduces Healing Effectiveness by 95%."
+  },
+  {
+    "id": 40,
+    "category": "Amulet",
+    "name": "Nightweaver's Grudge",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/nightwavers_grudge_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span> Critical Chance and <span style=\"color: #f1f1cf;\" data-darkreader-inline-color=\"\">HASTE</span> when within <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15m</span> of an entity suffering from a Status Effect."
+  },
+  {
+    "id": 41,
+    "category": "Amulet",
+    "name": "Nimue's Ribbon",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/nimues_ribbon_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increase Relic Healing Effectiveness by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span> Activating a Relic grants <span style=\"color: #f1f1cf;\" data-darkreader-inline-color=\"\">HASTE</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25s</span>."
+  },
+  {
+    "id": 42,
+    "category": "Amulet",
+    "name": "One True King Sigil",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/one_true_king_sigil_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Mod damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span>. Enhances the effect of Faerin's Sigil and Faelin's Sigil by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span> per Sigil equipped."
+  },
+  {
+    "id": 43,
+    "category": "Amulet",
+    "name": "One-Eyed Joker Idol",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/one-eyed_joker_idol_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Neutral Backdash creates a Magic Card lasting <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">1s</span>. If Card absorbs enemy damage gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span> Critical Chance for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5s</span>. Neutral Backdash cost <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30%</span> additional Stamina."
+  },
+  {
+    "id": 44,
+    "category": "Amulet",
+    "name": "Onyx Pendulum",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/onyx_pendulum_amulets_remnant2_wiki_guide_250px.png",
+    "effect": "Firearm damage adds stacks which increase the damage of stowed firearm by 2.5% for 15s. Stacks 10x."
+  },
+  {
+    "id": 45,
+    "category": "Amulet",
+    "name": "Range Finder",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/range_finder_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "After killing an enemy, gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10%</span> Ranged damage and 2m Firearm Range. Stacks <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">3x</span> Lasts <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10s</span>. ranged Weakspot Hits will refresh duration."
+  },
+  {
+    "id": 46,
+    "category": "Amulet",
+    "name": "Ravager's Mark",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/ravagers_mark_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases all damage dealt to <span style=\"color: #96424f;\" data-darkreader-inline-color=\"\">BLEEDING</span> targets by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span>. Bonus increases to <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30%</span> for targets with <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span> or lower Health."
+  },
+  {
+    "id": 47,
+    "category": "Amulet",
+    "name": "Red Doe Sigil",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/red_doe_sigil_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Relic Healing Effectiveness by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30%</span> which doubles when the wearer's Health is below <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>."
+  },
+  {
+    "id": 48,
+    "category": "Amulet",
+    "name": "Rusted Navigator's Pendant",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/rusted_navigators_pendant_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Grants <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15</span> Health, <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15</span> Stamina, and <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">-15</span> Armor Encumbrance."
+  },
+  {
+    "id": 49,
+    "category": "Amulet",
+    "name": "Samoflange",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/samoflange_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Direct damage taken from enemies, and any additional damage within <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">2s</span>, is reduced by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>. Once the defensive buff expires, all incoming damage to wearer is increased by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10s</span>."
+  },
+  {
+    "id": 50,
+    "category": "Amulet",
+    "name": "Scavenger's Bauble",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/scavengers_bauble_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Scrap pickups by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>, Automatically pick up any nearby crafting materials."
+  },
+  {
+    "id": 51,
+    "category": "Amulet",
+    "name": "Shaed Bloom Crystal",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/shaed_bloom_crystal_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Gain a <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30%</span> damage bonus. Every <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5s</span>, the bonus switches between Physical and Elemental damage."
+  },
+  {
+    "id": 52,
+    "category": "Amulet",
+    "name": "Shock Device",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/shock_device_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases <span style=\"color: #7e7ea2;\" data-darkreader-inline-color=\"\">SHOCK</span> damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span> and <span style=\"color: #7e7ea2;\" data-darkreader-inline-color=\"\">OVERLOADED</span> damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>."
+  },
+  {
+    "id": 53,
+    "category": "Amulet",
+    "name": "Silver Ribbon",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/silver_ribbon_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Skill damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span>. Activating a SKILL grants <span style=\"color: #f1f1cf;\" data-darkreader-inline-color=\"\">HASTE</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15s</span>."
+  },
+  {
+    "id": 54,
+    "category": "Amulet",
+    "name": "Soul Anchor",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/soul_anchor_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Summoning increases all damage dealt by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30s</span>."
+  },
+  {
+    "id": 55,
+    "category": "Amulet",
+    "name": "Spirit Wisp Amulet",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/spirit_wisp_amulet__amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Activating a Mod reduces current Skill Cooldowns by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">3%</span> for every <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">300</span> Mod Power spent."
+  },
+  {
+    "id": 56,
+    "category": "Amulet",
+    "name": "Stalker's Brand",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/stalkers_brand_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Gain <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10%</span> Ranged and <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15%</span> Melee damage. Bonus double versus enemies not targeting wearer."
+  },
+  {
+    "id": 57,
+    "category": "Amulet",
+    "name": "Talisman of the Sun",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/talisman_of_the_sun_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases <span style=\"color: #9f674e;\" data-darkreader-inline-color=\"\">FIRE</span> damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span> and <span style=\"color: #9f674e;\" data-darkreader-inline-color=\"\">BURNING</span> damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>."
+  },
+  {
+    "id": 58,
+    "category": "Amulet",
+    "name": "Toxic Release Valve",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/toxic_release_valve_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Swapping off an empty Firearm releases a Toxic Cloud, which deals <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">148.5</span> <span style=\"color: #589961;\" data-darkreader-inline-color=\"\">ACID</span> Damage to all enemies within <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">7m</span>. and applies <span style=\"color: #589961;\" data-darkreader-inline-color=\"\">CORROSION.</span> <br>Can only happen once every <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">3s</span>."
+  },
+  {
+    "id": 59,
+    "category": "Amulet",
+    "name": "Twisted Idol",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/twisted_idol_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Armor Effectiveness by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30%</span> and reduces Encumbrance by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15</span>."
+  },
+  {
+    "id": 60,
+    "category": "Amulet",
+    "name": "Vengeance Idol",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/vengeance_idol_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases all damage dealt by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30%</span> when the wearer's Health is below <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>."
+  },
+  {
+    "id": 61,
+    "category": "Amulet",
+    "name": "Void Idol",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/void_idol_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Reload Speed by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span>. Reloads only require <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span> of magazine from reserves to fully reload."
+  },
+  {
+    "id": 62,
+    "category": "Amulet",
+    "name": "Weightless Weight",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/wightless_weight_amulets_remnant2_wiki_guide_75px.png",
+    "effect": "Increases Movement Speed by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">0.75%</span> and Reduces Stamina Costs of all actions by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">0.75% </span> for every each <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5</span> point of Armor Encumbrance."
+  }
+]

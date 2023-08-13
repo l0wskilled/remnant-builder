@@ -1,0 +1,258 @@
+[
+  {
+    "category": "Trait",
+    "name": "Ammo Reserves",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/ammo_reserves_gunslinger_archetype_trait_remnant2_wiki_guide_100px.png",
+    "type": "Archetype Trait",
+    "effect": "Increases Ammo Reserves",
+    "maxLevelBonus": "Increases Ammo Reserves by <strong style=\"color: #ffffff;\">50%</strong>"
+  },
+  {
+    "category": "Trait",
+    "name": "Kinship",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/kinship_handler_archetype_trait_remnant2_wiki_guide_100px.png",
+    "type": "Archetype Trait",
+    "effect": "Reduces Friendly Fire damage dealt and received",
+    "maxLevelBonus": "Reduces Friendly Fire Damage&nbsp;Dealt and Received by <span style=\"color: #ffffff;\"><strong>80%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Longshot",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/longshot_hunter_archetype_trait_remnant2_wiki_guide_100px.png",
+    "type": "Archetype Trait",
+    "effect": "Increases Weapon Ideal Range",
+    "maxLevelBonus": "Increases Weapon Ideal Range by&nbsp;<strong style=\"color: #ffffff;\">600(cm)</strong>"
+  },
+  {
+    "category": "Trait",
+    "name": "Potency",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/potency_alchemist_archetype_trait_remnant2_wiki_guide_100px.png",
+    "type": "Archetype Trait",
+    "effect": "Increases Consumable Duration",
+    "maxLevelBonus": "Increases Consumable Duration by <strong style=\"color: #ffffff;\">100%</strong>"
+  },
+  {
+    "category": "Trait",
+    "name": "Regrowth",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/regrowth_summoner_archetype_trait_remnant2_wiki_guide_100px.png",
+    "type": "Archetype Trait",
+    "effect": "Increases Health Regeneration",
+    "maxLevelBonus": "Increases Health Regen by <strong style=\"color: #ffffff;\">1.5s</strong>"
+  },
+  {
+    "category": "Trait",
+    "name": "Strong Back",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/strong_back_challenger_archetype_trait_remnant2_wiki_guide_100px.png",
+    "type": "Archetype Trait",
+    "effect": "Decreases Encumbrance",
+    "maxLevelBonus": "Reduces encumbrance by <strong style=\"color: #ffffff;\">10</strong>"
+  },
+  {
+    "category": "Trait",
+    "name": "Flash Caster",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/flash_caster_archon_archetype_trait_remnant2_wiki_guide_100px.png",
+    "type": "Archetype Trait",
+    "effect": "Increases casting Speed",
+    "maxLevelBonus": "Increases casting speed by <span style=\"color: #ffffff;\"><strong>50%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Fortify",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/fortify_engineer_archetype_trait_remnant2_wiki_guide_100px.png",
+    "type": "Archetype Trait",
+    "effect": "Increases Armor Effectiveness",
+    "maxLevelBonus": "Increases Armor Effectiveness by<strong style=\"color: #ffffff;\"> 50%</strong>"
+  },
+  {
+    "category": "Trait",
+    "name": "Untouchable",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/untouchable_invader_archetype_trait_remnant2_wiki_guide_100px.png",
+    "type": "Archetype Trait",
+    "effect": "Increases Evade Window",
+    "maxLevelBonus": "Increases Evade Window by <strong style=\"color: #ffffff;\">30%</strong>"
+  },
+  {
+    "category": "Trait",
+    "name": "Swiftness",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/swiftness_explorer_archetype_trait_remnant2_wiki_guide_100px.png",
+    "type": "Archetype Trait",
+    "effect": "Increases movement",
+    "maxLevelBonus": "Increases all Movement Speed by <strong style=\"color: #ffffff;\">15%</strong>"
+  },
+  {
+    "category": "Trait",
+    "name": "Triage",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/triage_medic_archetype_trait_remnant2_wiki_guide_100px.png",
+    "type": "Archetype Trait",
+    "effect": "Increases&nbsp;Healing",
+    "maxLevelBonus": "Increases healing by <strong style=\"color: #ffffff;\">50%</strong>"
+  },
+  {
+    "category": "Trait",
+    "name": "Endurance",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/endurance_core_trait_remnant2_wiki_guide_100px.png",
+    "type": "Core Trait",
+    "effect": "Increases Maximum Stamina",
+    "maxLevelBonus": "Increases Max&nbsp;Stamina by&nbsp;<span style=\"color: #ffffff;\"><strong>30%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Expertise",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/expertise_core_trait_remnant2_wiki_guide_100px.png",
+    "type": "Core Trait",
+    "effect": "Reduces Skill Cooldowns",
+    "maxLevelBonus": "Reduces Skill Cooldowns&nbsp;by&nbsp;<span style=\"color: #ffffff;\"><strong>-20%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Spirit",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/spirit_core_trait_remnant2_wiki_guide_100px.png",
+    "type": "Core Trait",
+    "effect": "Increases Mod Power Generation",
+    "maxLevelBonus": "Increases&nbsp;Mod Power Generation by&nbsp;<span style=\"color: #ffffff;\"><strong>20%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Vigor",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/vigor_core_trait_remnant2_wiki_guide_100px.png",
+    "type": "Core Trait",
+    "effect": "Increases Maximum Health",
+    "maxLevelBonus": "Increases Max&nbsp;Health by&nbsp;<span style=\"color: #ffffff;\"><strong>30%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Amplitude",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/amplitude_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases AOE Size",
+    "maxLevelBonus": "Increases AOE Size by&nbsp;<strong><span style=\"color: #ffffff;\">+50%</span></strong>"
+  },
+  {
+    "category": "Trait",
+    "name": "Arcane Strike",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/arcane_strike_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases Mod Power Generation from Melee Damage",
+    "maxLevelBonus": "Increases Mod Power Generation from Melee Damage by&nbsp;<span style=\"color: #ffffff;\"><strong>50%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Barkskin",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/barkskin_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Reduces ALL incoming Damage",
+    "maxLevelBonus": "Reduces ALL incoming Damage by&nbsp;<span style=\"color: #ffffff;\"><strong>10%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Blood Bond",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/blood_bond_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Summons absorb a set amount of damage taken by the caster",
+    "maxLevelBonus": "Summons absorb&nbsp;<span style=\"color: #ffffff;\"><strong>10%</strong></span>&nbsp;of damage taken by the caster"
+  },
+  {
+    "category": "Trait",
+    "name": "Bloodstream",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/bloodstream_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases Grey Health regen",
+    "maxLevelBonus": "Increases Grey Health regen by&nbsp;<span style=\"color: #ffffff;\"><strong>3.0/s</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Fitness",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/fitness_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases Evade Distance",
+    "maxLevelBonus": "Increases Evade Distance by&nbsp;<span style=\"color: #ffffff;\"><strong>+30%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Footwork",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/footwork_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases Movement Speed while Aiming",
+    "maxLevelBonus": "Increases Movement Speed while Aiming by&nbsp;<span style=\"color: #ffffff;\"><strong>+50%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Glutton",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/glutton_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases the Use Speed of Consumables and Relics",
+    "maxLevelBonus": "Increases the Use Speed of Consumables and Relics by&nbsp;<span style=\"color: #ffffff;\"><strong>+30%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Handling",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/handling_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Reduces Weapon Spread and Recoil",
+    "maxLevelBonus": "Reduces Weapon Spread and Recoil by&nbsp;<span style=\"color: #ffffff;\"><strong>40%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Recovery",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/recovery_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases Stamina Regen",
+    "maxLevelBonus": "Increases Stamina Regen by&nbsp;<span style=\"color: #ffffff;\"><strong>30/s</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Resonance",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/resonance_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases Aura Size",
+    "maxLevelBonus": "Increases Aura Size by&nbsp;<span style=\"color: #ffffff;\"><strong>+50%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Revivalist",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/revivalist_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases the Speed of Reviving and being Revived",
+    "maxLevelBonus": "Increases the Speed of Reviving and being Revived by&nbsp;<span style=\"color: #ffffff;\"><strong>+50%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Rugged",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/rugged_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases the Health of Archetpye Summons",
+    "maxLevelBonus": "Increases the Health of Archetpye Summons by&nbsp;<span style=\"color: #ffffff;\"><strong>+100%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Scholar",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/scholar_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases Experience Gain",
+    "maxLevelBonus": "Increases Experience Gain by&nbsp;<span style=\"color: #ffffff;\">+15%</span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Shadeskin",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/shadeskin_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases Resistance to Elemental Status Effect Damage",
+    "maxLevelBonus": "Increases Resistance to Elemental Status Effect Damage by&nbsp;<span style=\"color: #ffffff;\"><strong>20%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Siphoner",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/siphoner_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases Lifesteal",
+    "maxLevelBonus": "Increases Lifesteal by&nbsp;<span style=\"color: #ffffff;\"><strong>+3.0%</strong></span>"
+  },
+  {
+    "category": "Trait",
+    "name": "Wayfarer",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/wayfarer_trait_remnant2_wiki_guide_100px.png",
+    "type": "Trait",
+    "effect": "Increases Enviroment Movement Speed <br><br>(Vaulting, Ladders, Wading)",
+    "maxLevelBonus": "Increeses Traversal Movement by&nbsp;<strong><span style=\"color: #ffffff;\">+50%</span></strong>"
+  }
+]

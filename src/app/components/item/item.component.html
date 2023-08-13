@@ -1,0 +1,9 @@
+<div (click)="toggleSelection()"
+     class="item"
+     [style.background-image]="'url(' + this.stateService[this.stateProperty]?.image + ')'"
+     appTooltip [item]="this.stateService[this.stateProperty]" [direction]="tooltipDirection"></div>
+<app-item-selector [style.display]="selectionOpen ? 'flex' : 'none'"
+                   [items]="items"
+                   (selected)="itemSelected($event)"
+                   (closed)="selectionClosed($event)"></app-item-selector>
+

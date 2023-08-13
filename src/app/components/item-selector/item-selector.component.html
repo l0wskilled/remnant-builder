@@ -1,0 +1,10 @@
+<button (click)="close()">Close</button>
+<input placeholder="Filter" [(ngModel)]="searchTerm">
+<div class="item-container">
+  <div *ngFor="let item of filteredItems()"
+       class="item"
+       appTooltip [item]="item" direction="bottom"
+       [style.background-image]="'url(' + item?.image + ')'"
+       (click)="selectItem(item)">
+  </div>
+</div>

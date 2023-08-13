@@ -1,0 +1,34 @@
+:host {
+  display: block;
+  position: absolute;
+  width: 9%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  //background: #524141;
+  overflow: hidden;
+  &.isWeapon {
+    width: 19.6%;
+    aspect-ratio: 2.2/1;
+  }
+  &.isArchetype {
+    border-radius: 50%;
+    width: 14.4%;
+    background: #070707;
+    border: 2px solid #1c1c1c;
+  }
+  &.isMod, &.isMutator {
+    width: 33%;
+    min-width: 32px;
+    position: static;
+    background: #0e0e0e;
+    border: 2px solid #232323;
+    border-radius: 4px;
+  }
+}
+.item {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

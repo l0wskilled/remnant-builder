@@ -1,0 +1,110 @@
+<div class="sheet" *ngIf="!fetchService.fetching">
+  <div class="archetypes">
+    <app-item [items]="stateService.archetype1?.skills ?? []"
+              stateProperty="archetype1Skill"
+              tooltipDirection="right"
+              style="left: 5.8%;top: 3.3%;"></app-item>
+    <app-item [items]="itemsService.archetypes"
+              stateProperty="archetype1"
+              class="isArchetype"
+              tooltipDirection="right"
+              style="left: 13.7%;top: 0;"></app-item>
+
+    <app-item [items]="stateService.archetype2?.skills ?? []"
+              stateProperty="archetype2Skill"
+              tooltipDirection="right"
+              style="left: 85.4%;top: 3.3%;"></app-item>
+    <app-item [items]="itemsService.archetypes"
+              stateProperty="archetype2"
+              class="isArchetype"
+              tooltipDirection="right"
+              style="left: 72%;top: 0;"></app-item>
+  </div>
+  <div class="left">
+    <app-item [items]="itemsService.headArmors"
+              stateProperty="headArmor"
+              tooltipDirection="right"
+              style="left: 5.9%;top: 20%;"></app-item>
+    <app-item [items]="itemsService.bodyArmors"
+              stateProperty="bodyArmor"
+              tooltipDirection="right"
+              style="left: 2.8%;top: 33.2%;;"></app-item>
+    <app-item [items]="itemsService.legArmors"
+              stateProperty="legArmor"
+              tooltipDirection="right"
+              style="left: 0.7%;top: 46.7%;"></app-item>
+    <app-item [items]="itemsService.gloveArmors"
+              stateProperty="gloveArmor"
+              tooltipDirection="right"
+              style="left: 2.3%;top: 60.1%;"></app-item>
+    <app-item [items]="itemsService.relics"
+              stateProperty="relic"
+              tooltipDirection="right"
+              style="left: 6%;top: 73.6%;"></app-item>
+  </div>
+  <div class="right">
+    <app-item [items]="itemsService.amulets"
+              stateProperty="amulet"
+              tooltipDirection="left"
+              style="left: 85.3%;top: 20%;"></app-item>
+    <app-item [items]="itemsService.rings"
+              stateProperty="ring1"
+              tooltipDirection="left"
+              style="left: 88.9%;top: 33.2%;"></app-item>
+    <app-item [items]="itemsService.rings"
+              stateProperty="ring2"
+              tooltipDirection="left"
+              style="left: 90.5%;top: 46.7%;"></app-item>
+    <app-item [items]="itemsService.rings"
+              stateProperty="ring3"
+              tooltipDirection="left"
+              style="left: 88.9%;top: 60.1%;"></app-item>
+    <app-item [items]="itemsService.rings"
+              stateProperty="ring4"
+              tooltipDirection="left"
+              style="left: 85.3%;top: 73.6%;"></app-item>
+  </div>
+  <div class="bottom">
+    <app-item [items]="itemsService.rangedWeapons"
+              stateProperty="rangedWeapon"
+              tooltipDirection="top" class="isWeapon"
+              style="left: 18.2%;top: 88.4%;"></app-item>
+    <div class="addonContainer" style="left: 18.2%;top: 100%;">
+      <app-item [items]="itemsService.mods"
+                stateProperty="rangedWeaponMod"
+                tooltipDirection="top"
+                class="isMod"></app-item>
+      <app-item [items]="itemsService.getMutatorType('Ranged')"
+                stateProperty="rangedWeaponMutator"
+                tooltipDirection="top" class="isMutator"></app-item>
+    </div>
+
+    <app-item [items]="itemsService.meleeWeapons"
+              stateProperty="meleeWeapon"
+              tooltipDirection="top" class="isWeapon"
+              style="left: 40.3%;top: 88.4%;"></app-item>
+    <div class="addonContainer" style="left: 40.3%;top: 100%;">
+      <app-item [items]="itemsService.mods"
+                stateProperty="meleeWeaponMod"
+                tooltipDirection="top"
+                class="isMod"></app-item>
+      <app-item [items]="itemsService.getMutatorType('Melee')"
+                stateProperty="meleeWeaponMutator"
+                tooltipDirection="top" class="isMutator"></app-item>
+    </div>
+
+    <app-item [items]="itemsService.rangedSecondaryWeapons"
+              stateProperty="rangedSecondaryWeapon"
+              tooltipDirection="top" class="isWeapon"
+              style="left: 62.4%;top: 88.4%;"></app-item>
+    <div class="addonContainer" style="left: 62.4%;top: 100%;">
+      <app-item [items]="itemsService.mods"
+                stateProperty="rangedSecondaryWeaponMod"
+                tooltipDirection="top" class="isMod"></app-item>
+      <app-item [items]="itemsService.getMutatorType('Ranged')"
+                stateProperty="rangedSecondaryWeaponMutator"
+                tooltipDirection="top"
+                class="isMutator"></app-item>
+    </div>
+  </div>
+</div>

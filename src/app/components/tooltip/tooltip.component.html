@@ -1,0 +1,126 @@
+<div class="tooltip" [class]="direction"
+     [style.left]="left + 'px'" [style.top]="top + 'px'">
+  <h2>{{item?.name}}</h2>
+  <h3>{{item?.category}}</h3>
+  <img [src]="item?.image" [alt]="item?.name">
+  <div class="effect" *ngIf="item && (isRing(item) || isRelic(item) || isAmulet(item)) && !isMutator(item) && !isMod(item)"
+       [innerHtml]="asRing(item).effect"></div>
+  <div class="effect" *ngIf="item && isMod(item)">
+    <div class="container">
+      <div [innerHtml]="asMod(item).effect"></div>
+      <div>
+        <div class="key">Power Required</div>
+        <div class="value">{{asMod(item).powerRequired}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="effect" *ngIf="item && isMutator(item)">
+    <div class="container">
+      <div [innerHtml]="asMutator(item).effect"></div>
+      <div>
+        <div class="key">Max Level Bonus</div>
+        <div class="value" [innerHtml]="asMutator(item).maxLevelBonus"></div>
+      </div>
+    </div>
+  </div>
+  <div class="effect" *ngIf="item && isArmor(item)">
+    <div class="container">
+      <div>
+        <div class="key">Armor</div>
+        <div class="value">{{asArmor(item).armor}}</div>
+      </div>
+      <div>
+        <div class="key">Weight</div>
+        <div class="value">{{asArmor(item).weight}}</div>
+      </div>
+      <div>
+        <div class="key">Bleed Resist</div>
+        <div class="value">{{asArmor(item).bleedResist}}</div>
+      </div>
+      <div>
+        <div class="key">Fire Resist</div>
+        <div class="value">{{asArmor(item).fireResist}}</div>
+      </div>
+      <div>
+        <div class="key">Shock Resist</div>
+        <div class="value">{{asArmor(item).shockResist}}</div>
+      </div>
+      <div>
+        <div class="key">Blight Resist</div>
+        <div class="value">{{asArmor(item).blightResist}}</div>
+      </div>
+      <div>
+        <div class="key">Toxin Resist</div>
+        <div class="value">{{asArmor(item).toxinResist}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="effect" *ngIf="item && isMeleeWeapon(item)">
+    <div class="container">
+      <div>
+        <div class="key">Class</div>
+        <div class="value">{{asMeleeWeapon(item).class}}</div>
+      </div>
+      <div>
+        <div class="key">Base Damage</div>
+        <div class="value">{{asMeleeWeapon(item).baseDamage}}</div>
+      </div>
+      <div>
+        <div class="key">Crit Chance</div>
+        <div class="value">{{asMeleeWeapon(item).critChance}}%</div>
+      </div>
+      <div>
+        <div class="key">Weakspot Bonus</div>
+        <div class="value">{{asMeleeWeapon(item).weakspotBonus}}%</div>
+      </div>
+      <div>
+        <div class="key">Stagger Modifier</div>
+        <div class="value">{{asMeleeWeapon(item).staggerModifier}}%</div>
+      </div>
+    </div>
+  </div>
+  <div class="effect" *ngIf="item && isRangedWeapon(item)">
+    <div class="container">
+      <div>
+        <div class="key">Class</div>
+        <div class="value">{{asRangedWeapon(item).class}}</div>
+      </div>
+      <div>
+        <div class="key">Base Damage</div>
+        <div class="value">{{asRangedWeapon(item).baseDamage}}</div>
+      </div>
+      <div>
+        <div class="key">RPS</div>
+        <div class="value">{{asRangedWeapon(item).rps}}</div>
+      </div>
+      <div>
+        <div class="key">Magazine</div>
+        <div class="value">{{asRangedWeapon(item).magazine}}</div>
+      </div>
+      <div>
+        <div class="key">Ideal Range</div>
+        <div class="value">{{asRangedWeapon(item).idealRange}}</div>
+      </div>
+      <div>
+        <div class="key">Falloff Range</div>
+        <div class="value">{{asRangedWeapon(item).falloffRange}}</div>
+      </div>
+      <div>
+        <div class="key">Max Ammo</div>
+        <div class="value">{{asRangedWeapon(item).maxAmmo}}</div>
+      </div>
+      <div>
+        <div class="key">Crit Chance</div>
+        <div class="value">{{asRangedWeapon(item).critChance}}%</div>
+      </div>
+      <div>
+        <div class="key">Weakspot Bonus</div>
+        <div class="value">{{asRangedWeapon(item).weakspotBonus}}%</div>
+      </div>
+      <div>
+        <div class="key">Stagger Modifier</div>
+        <div class="value">{{asRangedWeapon(item).staggerModifier}}%</div>
+      </div>
+    </div>
+  </div>
+</div>

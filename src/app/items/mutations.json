@@ -1,0 +1,242 @@
+[
+  {
+    "category": "Mutator",
+    "name": "Bandit",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/bandit_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "On hit, grants a <span style=\"color: #ffffff;\">10-[30]%</span> chance&nbsp; to return spent Ammo directly into the magazine of this weapon.",
+    "maxLevelBonus": " <p>&nbsp;When Ammo is returned to this weapon, it gains 10% increased Fire Rate for 3s. Duration can increase up to 10s.</p> <p>+</p> "
+  },
+  {
+    "category": "Mutator",
+    "name": "Battery",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/battery_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Ranged Hits increase the next weakspot Hit by <span style=\"color: #ffffff;\">10-[20]%</span> per stack. Max <span style=\"color: #ffffff;\">5</span> Stacks.",
+    "maxLevelBonus": "At Max Stacks, the next weakspot Hit deals 15% additional damage over 3s."
+  },
+  {
+    "category": "Mutator",
+    "name": "Bulletweaver",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/bulletweaver_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Mod use increases Fire Rate of this weapon by <span style=\"color: #ffffff;\">10-[20]%</span> for <span style=\"color: #ffffff;\">7s</span>.",
+    "maxLevelBonus": "Reloading from empty increases Mod Generation of this weapon by 15%. Lasts 7s."
+  },
+  {
+    "category": "Mutator",
+    "name": "Deadly Calm",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/deadly_calm_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Continuously Aiming increases Ranged Damage by up to <span style=\"color: #ffffff;\">10-[20]%</span> over <span style=\"color: #ffffff;\">3s</span>.",
+    "maxLevelBonus": "Ranged Critical Hit Chance increased by 10%."
+  },
+  {
+    "category": "Mutator",
+    "name": "Dervish",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/dervish_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Increases Melee Damage by 10-[40]% for 10s when activating a Skill.",
+    "maxLevelBonus": "Melee kills reduce skill cooldowns by 5%. Can trigger once every 5s."
+  },
+  {
+    "category": "Mutator",
+    "name": "Disengange",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/disengage_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Melee Strikes increase the damage of the next Backdash Evade Attack by 4-[10]<span style=\"color: #ffffff;\">%</span>. Max <span style=\"color: #ffffff;\">5</span> Stacks.<br>Lasts <span style=\"color: #ffffff;\">7.5s</span>.",
+    "maxLevelBonus": "Perfect Neutral Evades grants 5 stacks"
+  },
+  {
+    "category": "Mutator",
+    "name": "Extender",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/extender_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Increases Magazine Capacity of this weapon by <span style=\"color: #ffffff;\">20-[40]%</span>.",
+    "maxLevelBonus": "Increases Reload Speed of this weapon by 15% when reloading from empty."
+  },
+  {
+    "category": "Mutator",
+    "name": "Failsafe",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/failsafe_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Attached Mod deals <span style=\"color: #ffffff;\">10-[20]%</span> additional Mod Damage.",
+    "maxLevelBonus": "Attached Mod use gains a 15% chace to not consume charge."
+  },
+  {
+    "category": "Mutator",
+    "name": "Feedback",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/feedback_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Using this weapon's Mod generates <span style=\"color: #ffffff;\">10-[20]%</span> of single charge value as passive Mod Power over <span style=\"color: #ffffff;\">10s</span>. Does not stack.",
+    "maxLevelBonus": "Mod Damage generates 10% of damage dealt as Mod Power."
+  },
+  {
+    "category": "Mutator",
+    "name": "Ghost Shell",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/ghost_shell_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "After <span style=\"color: #ffffff;\">3</span> consecutive Weakspot Hits, increase the damage of the next Weakspot Hit by <span style=\"color: #ffffff;\">20-[40]%</span>.",
+    "maxLevelBonus": "Increases Weakspot Critical Chance by 15%."
+  },
+  {
+    "category": "Mutator",
+    "name": "Harmonizer",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/harmonizer_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": " <p>Increases Mod Damage by <span style=\"color: #ffffff;\">10-[20]</span><span style=\"color: #ffffff;\">%</span>.</p> ",
+    "maxLevelBonus": "Generate 25% additional Mod Power for Stowed Weapon."
+  },
+  {
+    "category": "Mutator",
+    "name": "Lithely",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/lithe%C3%B1y_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Increases this weapon's Reload Speed by <span style=\"color: #ffffff;\">4-[7]%</span>&nbsp;for each enemy killed between reloads. lasts <span style=\"color: #ffffff;\">15s</span> Max <span style=\"color: #ffffff;\">5</span> Stacks.",
+    "maxLevelBonus": "Reloading this weapon at Max Stacks increases Ranged Damage by 20% by 15s"
+  },
+  {
+    "category": "Mutator",
+    "name": "Misfortune",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/misfortune_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Increase Melee damage by <span style=\"color: #ffffff;\">5-[8]%</span> for each unique Negative Status the target is suffering from.",
+    "maxLevelBonus": "Melee Attacks apply SLOW for 2s."
+  },
+  {
+    "category": "Mutator",
+    "name": "Momentum",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/momentum_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "When this weapon scores a Critical Hit, it increases Critical Chance and Critical Damage by <span style=\"color: #ffffff;\">1.5-[3]%</span> for <span style=\"color: #ffffff;\">3s</span>. Max <span style=\"color: #ffffff;\">10</span> stacks.",
+    "maxLevelBonus": "Critical Hits from this weapon add 2 stacks. Increases duration by 2s."
+  },
+  {
+    "category": "Mutator",
+    "name": "Overdrive",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/overdrive_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Melee Critical Hits increase Melee Critical Chance and Critical Damage by <span style=\"color: #ffffff;\">5%</span> for <span style=\"color: #ffffff;\">7.5-[15]s</span>. stacking up to <span style=\"color: #ffffff;\">5</span> times.",
+    "maxLevelBonus": "Melee Critical Strikes deal 20% additional damage."
+  },
+  {
+    "category": "Mutator",
+    "name": "Refunder",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/refunder_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Shots from this weapon have a <span style=\"color: #ffffff;\">20-[30]%</span> chance to return Ammo to reserves.",
+    "maxLevelBonus": "Refunded Ammo has a 50% chance to also be added to stowed weapon reserves."
+  },
+  {
+    "category": "Mutator",
+    "name": "Reinvigorate",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/reinvigorate_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Reduces the Stamina Cost of all Charged Melee Attacks by <span style=\"color: #ffffff;\">25-[50]%</span>.",
+    "maxLevelBonus": "Melee Charge Attacks gain 15% additional damage and 10% Critical Chance."
+  },
+  {
+    "category": "Mutator",
+    "name": "Resentment",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/resentment_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Gain <span style=\"color: #ffffff;\">10-[30]%</span> Melee Damage when Grey Health is present.",
+    "maxLevelBonus": "Reduces Stagger by 1 when using any Melee Attack"
+  },
+  {
+    "category": "Mutator",
+    "name": "Shield Breaker",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/shield_breaker_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Melee Attacks grants a Shield for <span style=\"color: #ffffff;\">2-4%</span> of Max Health. Max <span style=\"color: #ffffff;\">20-40%</span>. Last <span style=\"color: #ffffff;\">10s</span>.",
+    "maxLevelBonus": "Charged Melee Attacks consume all Shield to increase damage of next strike by 1% per Shield Consumed. Max 100%."
+  },
+  {
+    "category": "Mutator",
+    "name": "Slayer",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/slayer_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Reloading increases the damage of this weapon's next shot by 10-[20]%. Last <span style=\"color: #ffffff;\">3s</span>.",
+    "maxLevelBonus": "Increases reload Speed by 15%."
+  },
+  {
+    "category": "Mutator",
+    "name": "Steadfast",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/steadfast_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Charged Melee Attacks cannot be interrupted and gain <span style=\"color: #ffffff;\">10-[20]%</span> damage reduction from all sources.",
+    "maxLevelBonus": "All damage taken during Charged Melee Attack is covered to Grey Health."
+  },
+  {
+    "category": "Mutator",
+    "name": "Striker",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/striker_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Melee Hits increase Melee Damage by <span style=\"color: #ffffff;\">3-6%</span> for 10s Max <span style=\"color: #ffffff;\">5</span> Stacks.",
+    "maxLevelBonus": "Increases Movement Speed by 2% per stack."
+  },
+  {
+    "category": "Mutator",
+    "name": "Supercharger",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/supercharger_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Increases Charge Speed of Bows and Fusion Rifles by <span style=\"color: #ffffff;\">10-[30]%</span>.",
+    "maxLevelBonus": "Charged Primary Shots of Bows and Fusion Rigles gain 15% Critical Chance."
+  },
+  {
+    "category": "Mutator",
+    "name": "Timewave",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/timewave_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Mod Use applies <span style=\"color: #f1f1cf;\">SLOW</span> status on all enemies within <span style=\"color: #ffffff;\">7.5m</span> for <span style=\"color: #ffffff;\">5-[7]s</span>.",
+    "maxLevelBonus": "Increase this weapon's Ranged damage by 15% to enemies inflicted with SLOW status."
+  },
+  {
+    "category": "Mutator",
+    "name": "Transference",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/transference_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Melee Hits generate <span style=\"color: #ffffff;\">5%</span> Ammo Reserves for both Firearms. Cooldown <span style=\"color: #ffffff;\">10-[5]s</span>.",
+    "maxLevelBonus": "When a Firearm reserve is full, melee Strikes generate 25% additional Mod Power for that weapon."
+  },
+  {
+    "category": "Mutator",
+    "name": "Transpose",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/transpose_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Picking up Ammo increases Ranged damage by <span style=\"color: #ffffff;\">10-[20]%</span> for <span style=\"color: #ffffff;\">20s</span>.",
+    "maxLevelBonus": "Ammo pickups are added directly to into this weapon's magazine."
+  },
+  {
+    "category": "Mutator",
+    "name": "Twisting Wounds",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/twisting_wounds_ranged_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Ranged",
+    "effect": "Increases Ranged damage of this weapon by <span style=\"color: #ffffff;\">10-[20]%</span> to <span style=\"color: #96424f;\">BLEEDING</span> targets.",
+    "maxLevelBonus": "This weapon's Ranged Weakspot and Ranged Critical Hits apply BLEEDING, dealing 100 BLEED damage over 10s."
+  },
+  {
+    "category": "Mutator",
+    "name": "Vampire Blade",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/vampire_blade_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Increases Melee Damage by <span style=\"color: #ffffff;\">10-[25]%</span> while within <span style=\"color: #ffffff;\">10m</span> of a<span style=\"color: #96424f;\">&nbsp;BLEEDING</span>&nbsp;entity.",
+    "maxLevelBonus": "Melee Hits vs BLEEDING targets will Lifesteal 3% of base damage dealt."
+  },
+  {
+    "category": "Mutator",
+    "name": "Vengeful Strike",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/vengeful_striker_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Increases Melee damage by <span style=\"color: #ffffff;\">20-[50]%</span> when below <span style=\"color: #ffffff;\">50%</span> Max Health.",
+    "maxLevelBonus": "Increases Melee Critical Chance by 15% when below 50% Max Health."
+  },
+  {
+    "category": "Mutator",
+    "name": "Weaponlord",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/weaponlord_mutator_remnant2_wiki_guide_100px.png",
+    "distance": "Melee",
+    "effect": "Basic Melee Attacks increase the next Charge Attacks by <span style=\"color: #ffffff;\">7%</span>. Max <span style=\"color: #ffffff;\">5</span> Stacks.",
+    "maxLevelBonus": "At Max Stacks, the next Charge Attack gains 100% Critical Chance."
+  }
+]

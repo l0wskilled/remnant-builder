@@ -1,0 +1,122 @@
+[
+  {
+    "category": "Relic",
+    "name": "Dragon Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/dragon_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "On use, heals <strong><span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">70</span></strong> Health over <strong><span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">0.5s.</span></strong>"
+  },
+  {
+    "category": "Relic",
+    "name": "Blooming Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/blooming_heart_relic_items_remnant2_wiki_guide_100px.png",
+    "effect": "On use, heals the user for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">35%</span> of caster's Max Health over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5s</span>. Spawns <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">3</span> Healing Orbs which grant <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">35%</span> of caster's Max Health over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5s</span>. Orbs last <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20s</span>. Recasting removes previous Orbs"
+  },
+  {
+    "category": "Relic",
+    "name": "Crystal Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/crystal_heart_relic_items_remnant2_wiki_guide_100px.png",
+    "effect": "On use, regenerates <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">100%</span> of Max Health over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10s</span>, Movement Speed is reduced by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span>, and incoming damage is reduced by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span>. Lasts <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10s.</span>"
+  },
+  {
+    "category": "Relic",
+    "name": "Decayed Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/decayed_heart_relic_items_remnant2_wiki_guide_100px.png",
+    "effect": "On use, causes the next <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">3</span> instances of enemy damage taken to trigger 4<span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">0</span> Health regeneration over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">3s</span>. Lasts <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30s</span>."
+  },
+  {
+    "category": "Relic",
+    "name": "Enlarged Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/enlarged_heart-removebg-preview.png",
+    "effect": "Innate double use speed. On use, heals 140 over 0.5s. Relic capacity is halved."
+  },
+  {
+    "category": "Relic",
+    "name": "Lifeless Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/lifeless_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "On use, heals <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30</span> Health over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">0.5s</span>. Relic capacity is doubled"
+  },
+  {
+    "category": "Relic",
+    "name": "Constrained Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/constrained_heart-removebg-preview.png",
+    "effect": "On use regenerates 20 Health per second for 5s and grants 2 Stacks of Bulwark while heal is active."
+  },
+  {
+    "category": "Relic",
+    "name": "Pulsing Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/pulsing_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "On use, pulses every <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">3s</span>, healing allies within <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">7m</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20</span> Health over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">0.5s</span> per pulse. Lasts <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15s</span>."
+  },
+  {
+    "category": "Relic",
+    "name": "Quilted Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/quilted_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "Does not provide standard healing. On use, negates Stamina Drain and cause Evades to heal for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15</span> Health over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">0.25s</span>. Lasts <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20s</span>."
+  },
+  {
+    "category": "Relic",
+    "name": "Reprocessed Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/reprocessed_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "On use, converts <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5</span> Health to <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">40</span> Mod Power per second for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25s</span> for Both Weapons. Cannot die from conversion."
+  },
+  {
+    "category": "Relic",
+    "name": "Resonating Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/resonating_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "On use, regenerates <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span> of Max Health over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5s</span>. When heal ends, any overhea| Health is Doubled and awarded over the next <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20s</span>."
+  },
+  {
+    "category": "Relic",
+    "name": "Ripened Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/ripened_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "On.use, heals <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">35</span> Health over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">0.5s</span> and an additional <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">70</span>&nbsp;over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5s</span>."
+  },
+  {
+    "category": "Relic",
+    "name": "Runed Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/runed_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "On use, increases Health Regeneration by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">5</span> and generates <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">500</span> Mod Power over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10s</span>."
+  },
+  {
+    "category": "Relic",
+    "name": "Salvaged Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/salvaged_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "Innate <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span> Use Speed bonus. On use, heals <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">30</span> Health over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">0.25s</span> and restore <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">300%</span> of current Grey Health."
+  },
+  {
+    "category": "Relic",
+    "name": "Shielded Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/shielded_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "On use, grants a Shield for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">100%</span> of Current Health. Lasts <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20s</span> or until Shield is removed by damage"
+  },
+  {
+    "category": "Relic",
+    "name": "Siphon Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/siphon_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "On use, grants <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10%</span> of dase damage dealt as Lifesteal for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10s</span>."
+  },
+  {
+    "category": "Relic",
+    "name": "Tormented Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/tormented_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "Innate <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">20%</span> Use Speed bonus. On use, deals <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">420</span> Explosive damage to enemies within <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">10m</span> and Lifesteals <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">25%</span> of damage dealt.&nbsp;"
+  },
+  {
+    "category": "Relic",
+    "name": "Tranquil Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/tranquil_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "Passively grants <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">2</span> Health Regeneration per second. On use, doubles All Health Regeneration for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">15s</span>."
+  },
+  {
+    "category": "Relic",
+    "name": "Unsullied Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/unsullied_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "On use, heals for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">100%</span> of Current Health over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">0.5s</span>."
+  },
+  {
+    "category": "Relic",
+    "name": "Void Heart",
+    "image": "https://remnant2.wiki.fextralife.com/file/Remnant-2/void_heart_relic_remnant2_wiki_guide_100px.png",
+    "effect": "On use, reduces incoming damage by <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">50%</span> for <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">4s</span>. When buff ends, heals <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">100%</span> of missing Health over <span style=\"color: #ffffff;\" data-darkreader-inline-color=\"\">0.75s</span>."
+  }
+]
