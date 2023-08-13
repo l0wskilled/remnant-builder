@@ -25,11 +25,21 @@ export class StateManagerComponent {
     });
   }
 
-  loadState(key: string) {
+  loadState(el: HTMLSelectElement) {
+    const key = el.value;
     this.stateService.loadState(key);
   }
 
-  deleteState(key: string) {
+  deleteState(el: HTMLSelectElement) {
+    const key = el.value;
     this.stateService.deleteState(key);
+    if (el && el.options[0]) {
+      el.options[0].selected;
+    }
+    console.log(el.value);
+  }
+
+  hasSavedStates() {
+    return Object.keys(this.stateService.getSavedStates()).length > 0;
   }
 }

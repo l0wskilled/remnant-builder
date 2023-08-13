@@ -8,6 +8,6 @@
     <button class="small" (click)="increaseTrait(trait)" [disabled]="(trait?.level ?? 0) >= maxLevel">▲</button>
     <img [src]="trait?.image" [alt]="trait?.name">
     <button class="small" (click)="decreaseTrait(trait)" [disabled]="(trait?.level ?? 0) <= 0">▼</button>
-    <span>{{trait?.level}}</span>
+    <span *ngIf="trait?.level || 0 > 0">{{trait?.level}}</span>
   </div>
 </div>

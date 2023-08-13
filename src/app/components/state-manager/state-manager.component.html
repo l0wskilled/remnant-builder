@@ -6,6 +6,6 @@
   <select #select>
     <option [value]="state.key" *ngFor="let state of stateService.getSavedStates() | keyvalue">{{state.key}}</option>
   </select>
-  <button (click)="loadState(select.value)" [disabled]="!select.value">Load</button>
-  <button (click)="deleteState(select.value)" [disabled]="!select.value">Delete</button>
+  <button (click)="loadState(select)" [disabled]="!hasSavedStates()">Load</button>
+  <button (click)="deleteState(select)" [disabled]="!hasSavedStates()">Delete</button>
 </div>
