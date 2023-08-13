@@ -36,3 +36,12 @@ input {
   background-position: top center;
   cursor: pointer;
 }
+:host {
+  &.meleeWeapon,
+  &.rangedWeapon,
+  &.rangedSecondaryWeapon {
+    .item {
+        width: 10vw;
+    }
+  }
+}

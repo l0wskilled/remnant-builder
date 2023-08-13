@@ -319,16 +319,14 @@ export class StateService implements State {
         this._archetype1Skill?.name,
         this._archetype2?.name,
         this._archetype2Skill?.name,
-        this._traits?.map(x => `${x.name}:${x.level}`).join("|")
+        this._traits.map(x => `${x?.name}:${x?.level}`).join("|")
       ]
     );
     return lz.compressToEncodedURIComponent(json);
   }
 
   parseHash(hash: string): void {
-    const decompressed = lz.decompressFromEncodedURIComponent(hash);
-    console.log(decompressed);
-    const parsed = JSON.parse(decompressed);
+    const decompressed = lz.decompressFromEncodedURIComponent(hash), parsed = JSON.parse(decompressed);
     this.headArmor = this.itemsService.headArmors.find(x => x.name === parsed[0]);
     this.bodyArmor = this.itemsService.bodyArmors.find(x => x.name === parsed[1]);
     this.legArmor = this.itemsService.legArmors.find(x => x.name === parsed[2]);
