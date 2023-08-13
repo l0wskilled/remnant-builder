@@ -28,4 +28,8 @@ export class StateManagerComponent {
   loadState(key: string) {
     this.stateService.loadState(key);
   }
+
+  deleteState(key: string) {
+    this.stateService.deleteState(key);
+  }
 }

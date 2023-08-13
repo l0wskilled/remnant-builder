@@ -373,6 +373,12 @@ export class StateService implements State {
     }
   }
 
+  deleteState(key: string): void {
+    const savedStates = this.getSavedStates();
+    delete savedStates[key];
+    localStorage.setItem("savedStates", JSON.stringify(savedStates));
+  }
+
   getSavedStates(): Record<string, string> {
     return JSON.parse(localStorage.getItem("savedStates") || "{}");
   }
