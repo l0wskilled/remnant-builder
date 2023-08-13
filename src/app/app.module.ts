@@ -11,6 +11,7 @@ import {SpinnerComponent} from './components/spinner/spinner.component';
 import { TraitListComponent } from './components/trait-list/trait-list.component';
 import { TraitComponent } from './components/trait/trait.component';
 import { TraitSelectorComponent } from './components/trait-selector/trait-selector.component';
+import { StateManagerComponent } from './components/state-manager/state-manager.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TraitSelectorComponent } from './components/trait-selector/trait-select
     SpinnerComponent,
     TraitListComponent,
     TraitComponent,
-    TraitSelectorComponent
+    TraitSelectorComponent,
+    StateManagerComponent
   ],
   imports: [
     BrowserModule,

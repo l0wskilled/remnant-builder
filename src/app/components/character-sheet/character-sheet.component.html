@@ -1,3 +1,4 @@
+<app-state-manager [style.grid-column]="1"></app-state-manager>
 <div class="sheet" *ngIf="!fetchService.fetching" [style.grid-column]="2">
   <div class="archetypes">
     <app-item [items]="stateService.archetype1?.skills ?? []"

@@ -27,4 +27,8 @@ button {
   font-size: 1.25rem;
   border-radius: 4px;
   cursor: pointer;
+  &:disabled {
+    opacity: .5;
+    cursor: default;
+  }
 }

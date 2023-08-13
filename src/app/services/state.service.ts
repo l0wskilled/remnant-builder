@@ -362,7 +362,20 @@ export class StateService implements State {
     });
   }
 
-  getTraitLevelSum(): number {
-    return this.traits.reduce((sum, current) => sum + (current?.level ?? 0), 0);
+  saveState(key: string): void {
+    let savedStates = this.getSavedStates();
+    savedStates[key] = this.getHash();
+    localStorage.setItem("savedStates", JSON.stringify(savedStates));
+  }
+
+  loadState(key: string): void {
+    const savedStates = this.getSavedStates();
+    if (savedStates[key]) {
+      this.parseHash(savedStates[key]);
+    }
+  }
+
+  getSavedStates(): Record<string, string> {
+    return JSON.parse(localStorage.getItem("savedStates") || "{}");
   }
 }
