@@ -1,7 +1,6 @@
-import {Item} from "./item";
-import {Effect} from "./effect";
+import {ItemEffect} from "./item-effect";
 
-export interface Mutator extends Item, Effect {
+export interface Mutator extends ItemEffect {
   distance: string;
   maxLevelBonus: string;
 }

@@ -1,6 +1,5 @@
-import {Item} from "./item";
-import {Effect} from "./effect";
+import {ItemEffect} from "./item-effect";
 
-export interface Mod extends Item, Effect {
+export interface Mod extends ItemEffect {
   powerRequired: number;
 }

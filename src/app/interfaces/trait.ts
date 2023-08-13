@@ -1,7 +1,6 @@
-import {Item} from "./item";
-import {Effect} from "./effect";
+import {ItemEffect} from "./item-effect";
 
-export interface Trait extends Item, Effect {
+export interface Trait extends ItemEffect {
   type: "Archetype Trait" | "Core Trait" | "Trait";
   maxLevelBonus: string;
   level: number;

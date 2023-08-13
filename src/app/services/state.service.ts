@@ -15,6 +15,7 @@ import {ItemsService} from "./items.service";
 // @ts-ignore
 import * as lz from "../../../node_modules/lz-string/libs/lz-string.js";
 import {Trait} from "../interfaces/trait";
+import {RelicFragment} from "../interfaces/relic-fragment";
 
 @Injectable({
   providedIn: 'root'
@@ -75,6 +76,39 @@ export class StateService implements State {
 
   set relic(value: Relic | undefined) {
     this._relic = value;
+    this.hashChanged();
+  }
+
+  private _relicFragment1: RelicFragment | undefined;
+
+  get relicFragment1(): RelicFragment | undefined {
+    return this._relicFragment1;
+  }
+
+  set relicFragment1(value: RelicFragment | undefined) {
+    this._relicFragment1 = value;
+    this.hashChanged();
+  }
+
+  private _relicFragment2: RelicFragment | undefined;
+
+  get relicFragment2(): RelicFragment | undefined {
+    return this._relicFragment2;
+  }
+
+  set relicFragment2(value: RelicFragment | undefined) {
+    this._relicFragment2 = value;
+    this.hashChanged();
+  }
+
+  private _relicFragment3: RelicFragment | undefined;
+
+  get relicFragment3(): RelicFragment | undefined {
+    return this._relicFragment3;
+  }
+
+  set relicFragment3(value: RelicFragment | undefined) {
+    this._relicFragment3 = value;
     this.hashChanged();
   }
 
@@ -319,7 +353,10 @@ export class StateService implements State {
         this._archetype1Skill?.name,
         this._archetype2?.name,
         this._archetype2Skill?.name,
-        this._traits.map(x => `${x?.name}:${x?.level}`).join("|")
+        this._traits.map(x => `${x?.name}:${x?.level}`).join("|"),
+        this._relicFragment1?.name,
+        this._relicFragment2?.name,
+        this._relicFragment3?.name,
       ]
     );
     return lz.compressToEncodedURIComponent(json);
@@ -358,6 +395,9 @@ export class StateService implements State {
       }
       return trait;
     });
+    this.relicFragment1 = this.itemsService.relicFragments.find(x => x.name === parsed[24]);
+    this.relicFragment2 = this.itemsService.relicFragments.find(x => x.name === parsed[25]);
+    this.relicFragment3 = this.itemsService.relicFragments.find(x => x.name === parsed[26]);
   }
 
   saveState(key: string): void {

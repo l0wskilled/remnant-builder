@@ -9,6 +9,7 @@ import {RangedWeapon} from "../interfaces/ranged-weapon";
 import {Relic} from "../interfaces/relic";
 import {Trait} from "../interfaces/trait";
 import {Archetype} from "../interfaces/archetype";
+import {RelicFragment} from "../interfaces/relic-fragment";
 
 @Injectable({
   providedIn: 'root'
@@ -28,6 +29,7 @@ export class ItemsService {
   public relics: Relic[] = [];
   public traits: Trait[] = [];
   public archetypes: Archetype[] = [];
+  public relicFragments: RelicFragment[] = [];
 
   constructor() {
   }

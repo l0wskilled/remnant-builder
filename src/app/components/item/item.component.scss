@@ -17,12 +17,29 @@
     border: 2px solid #1c1c1c;
   }
   &.isMod, &.isMutator {
+    position: static;
     width: 33%;
     min-width: 32px;
-    position: static;
+  }
+  &.isMod, &.isMutator, &.isRelicFragment {
     background: #0e0e0e;
     border: 2px solid #232323;
     border-radius: 4px;
+  }
+  &.isRelicFragment {
+    width: 5%;
+    min-width: 24px;
+    &.fragment1 {
+      margin-left: -6%;
+    }
+    &.fragment2 {
+      margin-left: -6%;
+      margin-top: 6%;
+    }
+    &.fragment3 {
+      margin-left: -6%;
+      margin-top: 12%;
+    }
   }
 }
 .item {

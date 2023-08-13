@@ -12,6 +12,7 @@ import {Mutator} from "../interfaces/mutator";
 import {Trait} from "../interfaces/trait";
 import {Skill} from "../interfaces/skill";
 import {Archetype} from "../interfaces/archetype";
+import {RelicFragment} from "../interfaces/relic-fragment";
 
 @Injectable({
   providedIn: 'root'
@@ -44,6 +45,7 @@ export class FetchService {
     await this.fetchRangedSecondaryWeapons();
     await this.fetchTraits();
     await this.fetchArchetypes();
+    await this.fetchRelicFragments();
 
     this.fetching = false;
   }
@@ -97,7 +99,7 @@ export class FetchService {
 
   private async getData(url: string): Promise<Element[]> {
     const html = await this.fetch(url);
-    const tr = html.querySelector('table.wiki_table.sortable.searchable')?.querySelectorAll('tbody tr')
+    const tr = html.querySelector('table.wiki_table')?.querySelectorAll('tbody tr')
     return Array.from(tr ?? []);
   }
 
@@ -414,5 +416,23 @@ export class FetchService {
     const items = await this.getArcheTypeData("https://remnant2.wiki.fextralife.com/Classes");
     this.cache(items, 'archetypes');
     this.itemsService.archetypes = items;
+  }
+
+  private async fetchRelicFragments() {
+    if (!this.needsUpdate) {
+      this.itemsService.relicFragments = this.getCachedData('relicFragments') as Array<RelicFragment>;
+      if (this.itemsService.relicFragments.length > 0) {
+        return;
+      }
+    }
+    const data = await this.getData("https://remnant2.wiki.fextralife.com/Relic+Fragments");
+    const items = data.map(x => ({
+      category: "RelicFragment",
+      name: this.getText(x.querySelector('.wiki_link')).replace("Cracked ", ""),
+      image: this.formatImageSrc(x.querySelector('img')),
+      effect: this.getHtml(x.querySelectorAll('td')[1]),
+    } as RelicFragment));
+    this.cache(items, 'relicFragments');
+    this.itemsService.relicFragments = items;
   }
 }

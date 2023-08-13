@@ -1,5 +1,4 @@
-import {Item} from "./item";
-import {Effect} from "./effect";
+import {ItemEffect} from "./item-effect";
 
-export interface Ring extends Item, Effect {
+export interface Ring extends ItemEffect {
 }
