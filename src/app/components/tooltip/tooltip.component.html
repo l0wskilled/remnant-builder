@@ -15,6 +15,15 @@
       </div>
     </div>
   </div>
+  <div class="effect" *ngIf="item && isTrait(item)">
+    <div class="container">
+      <div [innerHtml]="asTrait(item).effect"></div>
+      <div>
+        <div class="key">Max Level Bonus</div>
+        <div class="value" [innerHtml]="asTrait(item).maxLevelBonus"></div>
+      </div>
+    </div>
+  </div>
   <div class="effect" *ngIf="item && isArchetype(item)">
     <div class="container">
       <div>
