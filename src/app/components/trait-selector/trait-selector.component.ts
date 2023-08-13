@@ -15,7 +15,7 @@ export class TraitSelectorComponent {
   searchTerm: string = '';
   maxLevel = 10;
   maxSum = 65;
-  private readonly stateService = inject(StateService)
+  readonly stateService = inject(StateService)
 
   close() {
     this.closed.next(true);

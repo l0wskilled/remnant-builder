@@ -422,4 +422,8 @@ export class StateService implements State {
   getSavedStates(): Record<string, string> {
     return JSON.parse(localStorage.getItem("savedStates") || "{}");
   }
+
+  getTraitLevelSum(): number {
+    return this.traits.reduce((sum, current) => sum + (current?.level ?? 0), 0);
+  }
 }
